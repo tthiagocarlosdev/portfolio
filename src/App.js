@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import Header from "./components/Header"
+import SobreMim from "./components/SombreMim";
+import Teste from "./components/Teste";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+const App = () => {
+  let [message, setMessage] = useState(`Portifólio`);
+
+  return(
+    <>
+      <Header/>
+      <div className="container">
+        <h1>{message}</h1>
+        
+      </div>
+      <button onClick={() => setMessage(`Welcome to React!`)}> mudar mensagem</button>
+      <Teste/>
+      <SobreMim/>
+    </>
+    
+  )
 }
 
 export default App;
