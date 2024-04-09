@@ -4,7 +4,7 @@ import "../App.css";
 
 const Header = () => {
     return (
-        <header>
+        <header id="cabecalho">
             <nav className="larguraDaPagina">
                 <a className="linksCabecalho" href="#sobreMim">Sobre mim</a>
                 <a className="linksCabecalho" href="#tecnologias">Tecnologias</a>

@@ -1,9 +1,15 @@
 import React from "react";
+import "./Footer.css"
 
 const Footer = () => {
+
     return ( 
-        <footer>
-            <p>Desenvolvido por <a href="#"> tthiagocarlosdev</a> </p>
+        <footer className="rodape">
+            <div className="larguraDaPagina">
+                <p className="textoRodape">Desenvolvido por <a href="#cabecalho"> tthiagocarlosdev</a> </p>
+                <a className="setaRodape" href="#cabecalho"> <i className="fa-solid fa-circle-arrow-up"></i></a>
+            </div>
+            
         </footer>
      );
 }
