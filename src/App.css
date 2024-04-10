@@ -1,6 +1,7 @@
 :root {
     --pretoZeroPontoCincoOpacidade:rgba(0, 0, 0, 0.5);
     --pretoZeroPontoQuatroOpacidade:rgba(0, 0, 0, 0.4);
+    --preto:#000000;
     --branco: white;
     --cinzaEscuro:#282623;
     --cinzaEscuroClaro: #58534E;

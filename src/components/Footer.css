@@ -48,15 +48,15 @@
     text-decoration: none;
 }
 
-.fa-solid {
+.fa-circle-arrow-up {
     font-size: 48px;
     color: var(--branco);
 }
 
-.fa-solid:hover{
+.fa-circle-arrow-up:hover{
     color: var(--cinzaEscuro);
     background-color: var(--cinzaClaro);
-    border: 1px solid var(--cinzaClaro);
+    border: 2px solid var(--cinzaClaro);
     border-radius: 50%;
 }
 

@@ -6,10 +6,10 @@ const Header = () => {
     return (
         <header id="cabecalho">
             <nav className="larguraDaPagina">
-                <a className="linksCabecalho" href="#sobreMim">Sobre mim</a>
-                <a className="linksCabecalho" href="#tecnologias">Tecnologias</a>
-                <a className="linksCabecalho" href="#projetos">Projetos</a>
-                <a className="linksCabecalho" href="#contatos">Contatos</a>
+                <a className="linksCabecalho" href="#sectionSobreMim">Sobre mim</a>
+                <a className="linksCabecalho" href="#sectionTecnologias">Tecnologias</a>
+                <a className="linksCabecalho" href="#sectionProjetos">Projetos</a>
+                <a className="linksCabecalho" href="#sectionContatos">Contatos</a>
             </nav>
             <div className="textoDoTitulo larguraDaPagina">
                 <h1>Olá! Meu nome é Thiago Carlos e</h1>
