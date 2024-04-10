@@ -9,7 +9,6 @@ const Footer = () => {
                 <p className="textoRodape">Desenvolvido por <a href="#cabecalho"> tthiagocarlosdev</a> </p>
                 <a className="setaRodape" href="#cabecalho"> <i className="fa-solid fa-circle-arrow-up"></i></a>
             </div>
-            
         </footer>
      );
 }

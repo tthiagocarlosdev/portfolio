@@ -1,23 +1,29 @@
-#sectionTecnologias {
-    width: 100%;
+#sectionContatos {
+    background-color: var(--cinzaClaroEscuro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionContatos {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--cinzaClaroEscuro);
 }
 
-.containerCirculosDeTecnologias {
-    /* background-color: bisque; */
+.containerLinksContatos {
+    /* background-color: burlywood; */
     width: 100%;
     height: 250px;
+
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.circulosDeTecnologias {
-    background-color: var(--cinzaClaro);
+.linksContatos {
+    text-decoration: none;
     border-radius: 50%;
     height: 90px;
     width: 90px;
@@ -27,16 +33,16 @@
     transition: 1s all ease;
 }
 
-.circulosDeTecnologias i {
+.linksContatos i {
     font-size: 60px;
     color: var(--cinzaEscuroClaro);
     transition: 1s all ease;
 }
 
-.circulosDeTecnologias:hover {
-    background-color: var(--cinzaEscuroClaro);
+.linksContatos i:hover {
+    color: var(--cinzaClaro);
 }
 
-.circulosDeTecnologias i:hover {
-    color: var(--cinzaClaro);
+.linksContatos:hover {
+    background-color: var(--cinzaEscuroClaro);
 }

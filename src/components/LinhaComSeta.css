@@ -10,9 +10,9 @@
 
 .linha {
     width: 150px;
-    border-bottom: 2px dotted var(--cinza);
+    border-bottom: 2px dotted var(--cinzaEscuroClaro);
 }
 
 .fa-angles-down {
-    color: var(--cinza);
+    color: var(--cinzaEscuroClaro);
 }
