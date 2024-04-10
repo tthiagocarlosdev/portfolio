@@ -1,19 +1,12 @@
 #sectionTecnologias {
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: var(--cinzaClaroEscuro);
 }
 
 .containerCirculosDeTecnologias {
-    /* background-color: bisque; */
     width: 100%;
     height: 250px;
-    display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 
 .circulosDeTecnologias {
@@ -21,9 +14,6 @@
     border-radius: 50%;
     height: 90px;
     width: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     transition: 1s all ease;
 }
 

@@ -25,11 +25,11 @@ const SectionContatos = () => {
     };
 
     return (
-        <section id="sectionContatos">
-            <div className="sectionContatos larguraDaPagina">
+        <section id="sectionContatos" className="displayFlexCenterCenter">
+            <div className="sectionContatos larguraDaPagina displayFlexCenterCenter">
                 <SubTituloDaSecao titulo="Contatos" />
                 <LinhaComSeta />
-                <div className="containerLinksContatos">
+                <div className="containerLinksContatos displayFlexCenterCenter">
                     <a className="linksContatos" target="blank" href={`https://api.whatsapp.com/send?phone=${numeroWhatsapp}`}>
                         <i className="fa-brands fa-whatsapp"></i>
                     </a>

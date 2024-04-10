@@ -1,28 +1,20 @@
 #sectionSobreMim {
     width: 100%;
-    display: flex;
-    justify-content: center;
+    align-items: normal;
     background-color: var(--cinzaClaro);
 }
 
 .sectionSobreMim {
-    display: flex;
     flex-direction: column;
 }
 
 .containerFotoETextoSobreMim {
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
 }
 
 .containerFotoETextoSobreMim figure {
     height: 100%;
     flex: 1 1 30%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .containerFotoETextoSobreMim img {
@@ -31,20 +23,13 @@
 }
 
 .containerTextoSobreMim {
-    
     flex: 1 1 70%;
     height: 100%;
-
-    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
     text-align: center;
     font-size: 20px;
     line-height: 32px;
     padding: 16px;
-
     color: var(--cinzaEscuroClaro);
 }
 
