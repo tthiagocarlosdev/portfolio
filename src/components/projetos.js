@@ -1,15 +1,35 @@
 const projetos = [
+    {
+      imagem: 'myProjects.png',
+      texto: 'Concentrador de links com alguns dos meus projetos desenvolvidos apenas com HTML, CSS e JavaScript puro.',
+      enderecoProjeto: 'https://tthiagocarlosdev.github.io/projects_website/'
+    },
+    {
+      imagem: 'myProjects.png',
+      texto: 'Concentrador de links com alguns dos meus projetos desenvolvidos apenas com HTML, CSS e JavaScript puro.',
+      enderecoProjeto: 'https://tthiagocarlosdev.github.io/projects_website/'
+    },
+    {
+      imagem: 'myProjects.png',
+      texto: 'Concentrador de links com alguns dos meus projetos desenvolvidos apenas com HTML, CSS e JavaScript puro.',
+      enderecoProjeto: 'https://tthiagocarlosdev.github.io/projects_website/'
+    },
+    {
+      imagem: 'myProjects.png',
+      texto: 'Concentrador de links com alguns dos meus projetos desenvolvidos apenas com HTML, CSS e JavaScript puro.',
+      enderecoProjeto: 'https://tthiagocarlosdev.github.io/projects_website/'
+    },
+    {
+      imagem: 'myProjects.png',
+      texto: 'Concentrador de links com alguns dos meus projetos desenvolvidos apenas com HTML, CSS e JavaScript puro.',
+      enderecoProjeto: 'https://tthiagocarlosdev.github.io/projects_website/'
+    },
     // {
-    //   imagem: 'portifolio_design.jpg',
-    //   texto: 'Descrição do Projeto 1',
-    //   enderecoProjeto: 'https://endereco-do-projeto-1.com'
+    //   imagem: '',
+    //   texto: '',
+    //   enderecoProjeto: ''
     // },
-    // {
-    //   imagem: 'pexels-josh-sorenson-1714205.jpg',
-    //   texto: 'Descrição do Projeto 2',
-    //   enderecoProjeto: 'https://endereco-do-projeto-2.com'
-    // },
-    // Adicione mais projetos conforme necessário
+    
 ];
 
 export default projetos;

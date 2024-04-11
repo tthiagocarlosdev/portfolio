@@ -1,11 +1,12 @@
 import React from 'react';
+import "./CardProjeto.css"
 
 const CardProjeto = ({ imagem, texto, enderecoProjeto }) => {
   return (
-    <div className="card-projeto">
-        <img src={require(`../img/${imagem}`)} alt="Imagem do projeto" />
-        <p>{texto}</p>
-        <a href={enderecoProjeto} target="_blank" rel="noopener noreferrer">Ir para o projeto</a>
+    <div className="cardProjeto displayFlexCenterCenter">
+        <img className='imagemDoProjeto' src={require(`../img/imagesDosProjetos/${imagem}`)} alt="Imagem do projeto" />
+        <p className='paragrafoCard'>{texto}</p>
+        <a className='botaoIrParaProjeto displayFlexCenterCenter' href={enderecoProjeto} target="_blank" rel="noopener noreferrer">Ir para o projeto</a>
     </div>
   );
 };

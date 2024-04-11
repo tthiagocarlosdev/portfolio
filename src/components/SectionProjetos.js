@@ -9,10 +9,10 @@ import projetos from './projetos';
 const SectionProjetos = () => {
     return ( 
         <section id="sectionProjetos" className="displayFlexCenterCenter">
-            <div className="sectionProjetos larguraDaPagina">
+            <div className="sectionProjetos larguraDaPagina displayFlexCenterCenter">
                 <SubTituloDaSecao titulo="Projetos" />
                 <LinhaComSeta/>
-                <div className="containerDeCardsDosProjetos">
+                <div className="containerDeCardsDosProjetos displayFlexCenterCenter">
                     {projetos.length > 0 ? (
                         projetos.map((projeto, index) => (
                             <CardProjeto
