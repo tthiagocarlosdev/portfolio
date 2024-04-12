@@ -7,6 +7,7 @@
     width: 100%;
     height: 250px;
     justify-content: space-around;
+    /* background-color: plum; */
 }
 
 .circulosDeTecnologias {
@@ -29,4 +30,44 @@
 
 .circulosDeTecnologias i:hover {
     color: var(--cinzaClaro);
+}
+
+
+/* media  media  media  media  media  media  media  media  media  media  media */
+/* media  media  media  media  media  media  media  media  media  media  media */
+/* Para telas com largura entre 481px e 768px */
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .containerCirculosDeTecnologias {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .circulosDeTecnologias {
+        height: 80px;
+        width: 80px;
+    }
+    
+    .circulosDeTecnologias i {
+        font-size: 50px;
+    }
+}
+
+/* Para telas com largura entre 320px e 480px */
+@media screen and (max-width: 480px){
+    .containerCirculosDeTecnologias {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: 16px 0;
+    }
+
+    .circulosDeTecnologias {
+        height: 70px;
+        width: 70px;
+    }
+    
+    .circulosDeTecnologias i {
+        font-size: 40px;
+    }
 }

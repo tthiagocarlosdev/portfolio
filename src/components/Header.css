@@ -92,7 +92,7 @@ header {
 }
 
 /* Para telas com largura entre 320px e 480px */
-@media screen and (min-width: 320px) and (max-width: 480px){
+@media screen and (max-width: 480px){
     .containerNav {
         justify-content: center;
         flex-wrap: wrap;

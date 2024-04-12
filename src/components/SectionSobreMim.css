@@ -68,7 +68,7 @@
 }
 
 /* Para telas com largura entre 320px e 480px */
-@media screen and (min-width: 320px) and (max-width: 480px){
+@media screen and (max-width: 480px){
     .containerFotoETextoSobreMim {
         flex-direction: column;
         gap: 40px;
