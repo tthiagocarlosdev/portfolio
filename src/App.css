@@ -31,7 +31,7 @@ body {
 /* media  media  media  media  media  media  media  media  media  media  media */
 /* media  media  media  media  media  media  media  media  media  media  media */
 /* Para telas com largura entre 769px e 1279px */
-@media (min-width: 769px) and (max-width: 1279px){
+@media screen and (min-width: 769px) and (max-width: 1279px){
     .larguraDaPagina {
         width: 100%;
         padding: 16px;
@@ -39,7 +39,7 @@ body {
 }
 
 /* Para telas com largura entre 481px e 768px */
-@media (min-width: 481px) and (max-width: 768px){
+@media screen and (min-width: 481px) and (max-width: 768px){
     .larguraDaPagina {
         width: 100%;
         padding: 16px;

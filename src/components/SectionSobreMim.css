@@ -12,6 +12,7 @@
 .containerFotoETextoSobreMim {
     width: 100%;
     margin: 64px 0px;
+    gap: 20px;
 }
 
 .containerFotoETextoSobreMim figure {
@@ -35,5 +36,51 @@
     line-height: 32px;
     padding: 16px;
     color: var(--cinzaEscuroClaro);
+    /* background-color: burlywood; */
 }
 
+/* media  media  media  media  media  media  media  media  media  media  media */
+/* media  media  media  media  media  media  media  media  media  media  media */
+/* Para telas com largura entre 769px e 1279px */
+@media (min-width: 769px) and (max-width: 1279px){
+    .containerTextoSobreMim {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+/* Para telas com largura entre 481px e 768px */
+@media (min-width: 481px) and (max-width: 768px){
+    .containerFotoETextoSobreMim {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .containerFotoETextoSobreMim img {
+        border-radius: 50%;
+        width:60%;
+    }
+
+    .containerTextoSobreMim {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+/* Para telas com largura entre 320px e 480px */
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .containerFotoETextoSobreMim {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .containerFotoETextoSobreMim img {
+        border-radius: 50%;
+        width:45%;
+    }
+
+    .containerTextoSobreMim {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
