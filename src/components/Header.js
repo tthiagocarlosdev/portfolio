@@ -5,7 +5,7 @@ import "../App.css";
 const Header = () => {
     return (
         <header id="cabecalho" className="displayFlexCenterCenter">
-            <nav className="larguraDaPagina ">
+            <nav className="containerNav larguraDaPagina ">
                 <a className="linksCabecalho" href="#sectionSobreMim">Sobre mim</a>
                 <a className="linksCabecalho" href="#sectionTecnologias">Tecnologias</a>
                 <a className="linksCabecalho" href="#sectionProjetos">Projetos</a>

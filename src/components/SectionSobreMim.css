@@ -5,21 +5,25 @@
 }
 
 .sectionSobreMim {
+    /* background-color: papayawhip; */
     flex-direction: column;
 }
 
 .containerFotoETextoSobreMim {
     width: 100%;
+    margin: 64px 0px;
 }
 
 .containerFotoETextoSobreMim figure {
+    /* background-color: peachpuff; */
     height: 100%;
     flex: 1 1 30%;
 }
 
 .containerFotoETextoSobreMim img {
     border-radius: 50%;
-    height: 70%;
+    /* height: 70%; */
+    width: 85%;
 }
 
 .containerTextoSobreMim {

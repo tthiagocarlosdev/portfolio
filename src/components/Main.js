@@ -8,7 +8,7 @@ import SectionContatos from "./SectionContatos";
 
 const Main = () => {
     return ( 
-        <main className="main">
+        <main className="main displayFlexCenterCenter">
             <SectionSobreMim/>
             <SectionTecnologias/>
             <SectionProjetos/>

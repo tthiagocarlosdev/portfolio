@@ -10,8 +10,7 @@ header {
 
 }
 
-nav {
-    width: 100%;
+.containerNav {
     height: 80px;
     display: flex;
     justify-content: flex-end;
@@ -45,6 +44,7 @@ nav {
 
 .textoDoTitulo h1, .textoDoTitulo h2 {
     background-color: var(--pretoZeroPontoQuatroOpacidade);
+    /* background-color: blue; */
     padding: 16px 48px;
     border-radius: 5px;
 }
@@ -55,4 +55,61 @@ nav {
 
 .textoDoTitulo h2 {
     font-size: 38px;
+}
+
+
+/* media  media  media  media  media  media  media  media  media  media  media */
+/* media  media  media  media  media  media  media  media  media  media  media */
+/* Para telas com largura entre 769px e 1279px */
+@media (min-width: 769px) and (max-width: 1279px){
+    .textoDoTitulo h1 {
+        font-size: 38px;
+    }
+    
+    .textoDoTitulo h2 {
+        font-size: 28px;
+    }
+}
+
+/* Para telas com largura entre 481px e 768px */
+@media (min-width: 481px) and (max-width: 768px){
+    .containerNav {
+        justify-content: center;
+    }
+
+    .linksCabecalho:hover{
+        padding: 4px 8px;
+    }
+
+    .textoDoTitulo h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .textoDoTitulo h2 {
+        font-size: 20px;
+    }
+}
+
+/* Para telas com largura entre 320px e 480px */
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .containerNav {
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 8px;
+    }
+
+    .linksCabecalho:hover{
+        padding: 4px 8px;
+    }
+
+    .textoDoTitulo h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .textoDoTitulo h2 {
+        font-size: 16px;
+        text-align: center;
+    }
 }
