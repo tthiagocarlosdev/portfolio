@@ -11,7 +11,7 @@ header {
 }
 
 .containerNav {
-    height: 80px;
+    min-height: 80px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -44,7 +44,6 @@ header {
 
 .textoDoTitulo h1, .textoDoTitulo h2 {
     background-color: var(--pretoZeroPontoQuatroOpacidade);
-    /* background-color: blue; */
     padding: 16px 48px;
     border-radius: 5px;
 }
@@ -91,7 +90,7 @@ header {
     }
 }
 
-/* Para telas com largura entre 320px e 480px */
+/* Para telas com largura até e 480px */
 @media screen and (max-width: 480px){
     .containerNav {
         justify-content: center;

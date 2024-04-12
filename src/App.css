@@ -18,7 +18,6 @@ body {
 
 .larguraDaPagina {
     width: 1280px;
-    /* border: 1px  solid red; */
 }
 
 .displayFlexCenterCenter {
@@ -46,28 +45,10 @@ body {
     }
 }
 
-/* Para telas com largura entre 320px e 480px */
-@media screen and (min-width: 320px) and (max-width: 480px){
+/* Para telas com largura até e 480px */
+@media screen and (max-width: 480px){
     .larguraDaPagina {
         width: 100%;
         padding: 16px;
     }
 }
-
-
-/* media  media  media  media  media  media  media  media  media  media  media */
-/* media  media  media  media  media  media  media  media  media  media  media */
-/* Para telas com largura entre 769px e 1279px */
-/* @media screen and (min-width: 769px) and (max-width: 1279px){
-    
-} */
-
-/* Para telas com largura entre 481px e 768px */
-/* @media screen and (min-width: 481px) and (max-width: 768px){
-    
-} */
-
-/* Para telas com largura entre 320px e 480px */
-/* @media screen and (min-width: 320px) and (max-width: 480px){
-    
-} */

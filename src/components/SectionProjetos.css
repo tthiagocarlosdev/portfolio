@@ -38,5 +38,13 @@
 @media screen and (min-width: 481px) and (max-width: 768px){
     .containerDeCardsDosProjetos {
         gap: 25px;
+        padding: 32px 16px;
     }
+}
+
+/* Para telas com largura até e 480px */
+@media screen and (max-width: 480px){
+    .containerDeCardsDosProjetos {
+        padding: 32px 16px;
+    }  
 }

@@ -7,7 +7,6 @@
     width: 100%;
     height: 250px;
     justify-content: space-around;
-    /* background-color: plum; */
 }
 
 .circulosDeTecnologias {
@@ -53,7 +52,7 @@
     }
 }
 
-/* Para telas com largura entre 320px e 480px */
+/* Para telas com largura até e 480px */
 @media screen and (max-width: 480px){
     .containerCirculosDeTecnologias {
         justify-content: center;

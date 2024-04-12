@@ -1,5 +1,4 @@
 import React from "react";
-import Teste from "./Teste";
 import "./SectionTecnologias.css"
 
 import SubTituloDaSecao from './SubTituloDaSecao';

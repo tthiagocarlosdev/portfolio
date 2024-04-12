@@ -58,8 +58,8 @@
     }
 }
 
-/* Para telas com largura entre 320px e 480px */
-@media screen and (min-width: 320px) and (max-width: 480px){
+/* Para telas com largura até e 480px */
+@media screen and (max-width: 480px){
     .cardProjeto {
         width: calc(100% - 30px);
         gap: 12px;

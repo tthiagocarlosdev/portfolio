@@ -9,7 +9,7 @@
 
 .containerLinksContatos {
     width: 100%;
-    height: 250px;
+    min-height: 36.5vh;
     justify-content: space-around;
 }
 
@@ -36,4 +36,42 @@
 
 .linksContatos:hover {
     background-color: var(--cinzaEscuroClaro);
+}
+
+/* media  media  media  media  media  media  media  media  media  media  media */
+/* media  media  media  media  media  media  media  media  media  media  media */
+/* Para telas com largura entre 481px e 768px */
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .containerLinksContatos {
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .linksContatos {
+        height: 80px;
+        width: 80px;
+    }
+
+    .linksContatos i {
+        font-size: 50px;
+    }
+}
+
+/* Para telas com largura até e 480px */
+@media screen and (max-width: 480px){
+    .containerLinksContatos {
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .linksContatos {
+        height: 70px;
+        width: 70px;
+    }
+
+    .linksContatos i {
+        font-size: 40px;
+    }
 }
