@@ -34,3 +34,39 @@
     color: var(--cinzaClaro);
     background-color: var(--cinzaEscuroClaro);
 }
+
+
+/* media  media  media  media  media  media  media  media  media  media  media */
+/* media  media  media  media  media  media  media  media  media  media  media */
+/* Para telas com largura entre 769px e 1279px */
+@media screen and (min-width: 769px) and (max-width: 1279px){
+    .botaoIrParaProjeto {
+        font-size: 18px;
+    }
+}
+
+/* Para telas com largura entre 481px e 768px */
+@media screen and (min-width: 481px) and (max-width: 768px){
+    .cardProjeto {
+        width: calc((100% / 2) - 20px);
+        gap: 12px;
+        padding: 12px;
+    }
+
+    .botaoIrParaProjeto {
+        font-size: 16px;
+    }
+}
+
+/* Para telas com largura entre 320px e 480px */
+@media screen and (min-width: 320px) and (max-width: 480px){
+    .cardProjeto {
+        width: calc(100% - 30px);
+        gap: 12px;
+        padding: 10px;
+    }
+
+    .botaoIrParaProjeto {
+        font-size: 16px;
+    }
+}
