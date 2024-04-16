@@ -11,7 +11,7 @@ const SectionTecnologias = () => {
                 <SubTituloDaSecao titulo="Tecnologias" />
                 <LinhaComSeta/>
                 <div className="containerCirculosDeTecnologias displayFlexCenterCenter">
-                    <div className="logoBlue circulosDeTecnologias displayFlexCenterCenter"> <i className="fa-brands fa-html5"></i> </div>
+                    <div className="circulosDeTecnologias displayFlexCenterCenter"> <i className="fa-brands fa-html5"></i> </div>
                     <div className="circulosDeTecnologias displayFlexCenterCenter"> <i className="fa-brands fa-css3-alt"></i> </div>
                     <div className="circulosDeTecnologias displayFlexCenterCenter"> <i className="fa-brands fa-js"></i> </div>
                     <div className="circulosDeTecnologias displayFlexCenterCenter"> <i className="fa-brands fa-react"></i> </div>
