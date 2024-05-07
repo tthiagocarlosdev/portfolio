@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f7af6efe.css",
-    "main.js": "/portfolio/static/js/main.a8a16d05.js",
+    "main.css": "/portfolio/static/css/main.bf144afc.css",
+    "main.js": "/portfolio/static/js/main.af4a4f26.js",
     "static/media/pexels-fox-3829230.jpg": "/portfolio/static/media/pexels-fox-3829230.dac110b72a6015a583a2.jpg",
     "static/media/snakeCase.png": "/portfolio/static/media/snakeCase.248a161c3f48221db7dc.png",
     "static/media/enderecosETelefonesPcpe.png": "/portfolio/static/media/enderecosETelefonesPcpe.ba05af1ce756cd641b97.png",
@@ -17,11 +17,11 @@
     "static/media/lowerCamelCase.png": "/portfolio/static/media/lowerCamelCase.f3fc2740b4ab2b347483.png",
     "static/media/geradorDeSenha.png": "/portfolio/static/media/geradorDeSenha.a62292e6d0162b6de39f.png",
     "index.html": "/portfolio/index.html",
-    "main.f7af6efe.css.map": "/portfolio/static/css/main.f7af6efe.css.map",
-    "main.a8a16d05.js.map": "/portfolio/static/js/main.a8a16d05.js.map"
+    "main.bf144afc.css.map": "/portfolio/static/css/main.bf144afc.css.map",
+    "main.af4a4f26.js.map": "/portfolio/static/js/main.af4a4f26.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7af6efe.css",
-    "static/js/main.a8a16d05.js"
+    "static/css/main.bf144afc.css",
+    "static/js/main.af4a4f26.js"
   ]
 }
