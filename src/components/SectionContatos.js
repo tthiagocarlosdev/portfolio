@@ -30,23 +30,29 @@ const SectionContatos = () => {
                 <SubTituloDaSecao titulo="Contatos" />
                 <LinhaComSeta />
                 <div className="containerLinksContatos displayFlexCenterCenter">
-                    <a className="linksContatos" target="blank" href={`https://api.whatsapp.com/send?phone=${numeroWhatsapp}`}>
+                    <a className="linksContatos displayFlexCenterCenter" target="blank" href={`https://api.whatsapp.com/send?phone=${numeroWhatsapp}`}>
                         <i className="fa-brands fa-whatsapp"></i>
+                        <p>WhatsApp</p>
                     </a>
-                    <a className="linksContatos" onClick={handleCopiarEmail} href="#!">
+                    <a className="linksContatos displayFlexCenterCenter" onClick={handleCopiarEmail} href="#!">
                         <i className="fa-regular fa-envelope"></i>
+                        <p>E-mail</p>
                     </a>
-                    <a className="linksContatos" target="blank" href={enderecoYoutube}>
+                    <a className="linksContatos displayFlexCenterCenter" target="blank" href={enderecoYoutube}>
                         <i className="fa-brands fa-youtube"></i>
+                        <p>YouTube</p>
                     </a>
-                    <a className="linksContatos" target="blank" href={enderecoGithub}>
+                    <a className="linksContatos displayFlexCenterCenter" target="blank" href={enderecoGithub}>
                         <i className="fa-brands fa-github"></i>
+                        <p>GitHub</p>
                     </a>
-                    <a className="linksContatos" target="blank" href={enderecoLinkedin}>
+                    <a className="linksContatos displayFlexCenterCenter" target="blank" href={enderecoLinkedin}>
                         <i className="fa-brands fa-linkedin"></i>
+                        <p>Linkedin</p>
                     </a>
-                    <a className="linksContatos" target="blank" href={enderecoInstagram}>
+                    <a className="linksContatos displayFlexCenterCenter" target="blank" href={enderecoInstagram}>
                         <i className="fa-brands fa-instagram"></i>
+                        <p>Instagram</p>
                     </a>
                 </div>
             </div>

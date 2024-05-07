@@ -15,27 +15,25 @@
 
 .linksContatos {
     text-decoration: none;
-    border-radius: 50%;
-    height: 90px;
-    width: 90px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 1s all ease;
+    border-radius: 25px;
+    padding: 16px 0;
+    width: calc((100% / 6) - 5px);
+    flex-direction: column;
+    gap: 20px;
+    color: var(--cinzaEscuroClaro);
+    transition: 0.3s all;
 }
 
 .linksContatos i {
     font-size: 60px;
+    width: 100%;
+    text-align: center;
     color: var(--cinzaEscuroClaro);
-    transition: 1s all ease;
-}
-
-.linksContatos i:hover {
-    color: var(--cinzaClaro);
 }
 
 .linksContatos:hover {
-    background-color: var(--cinzaEscuroClaro);
+    border: 3px solid var(--cinzaEscuroClaro);
+    font-weight: bold;
 }
 
 /* media  media  media  media  media  media  media  media  media  media  media */
