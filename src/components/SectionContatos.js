@@ -6,7 +6,7 @@ import LinhaComSeta from "./LinhaComSeta";
 
 const SectionContatos = () => {
     const enderecoEmail = 'tthiagocarlos.dev@gmail.com';
-    const numeroWhatsapp = '5581988358179';
+    const numeroWhatsapp = '353831578001';
     const enderecoYoutube = 'https://www.youtube.com/channel/UCZN-uQtc4UDQt_tLu-I7Wpw';
     const enderecoGithub = 'https://github.com/tthiagocarlosdev';
     const enderecoLinkedin = 'https://www.linkedin.com/in/thiago-carlos-80a480244/';
