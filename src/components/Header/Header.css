@@ -9,31 +9,6 @@ header {
     background-size: cover;
 }
 
-.container-nav {
-    min-height: 80px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    gap: 40px;
-}
-
-.header-links {
-    text-decoration: none;
-    color: var(--white);
-    font-size: 16px;
-    padding-bottom: 4px;
-    border-bottom: 1px solid var(--white);
-    transition: 1s all ease;
-}
-
-.header-links:hover{
-    font-weight: bold;
-    background-color: var(--blackZeroPointFiveOpacity);
-    padding: 8px 12px;
-    border-radius: 3px;
-    border: none;
-}
-
 .container-title-text {
     flex: 1 1 50%;
     flex-direction: column;
@@ -71,13 +46,6 @@ header {
 
 /* Para telas com largura entre 481px e 768px */
 @media (min-width: 481px) and (max-width: 768px){
-    .container-nav {
-        justify-content: center;
-    }
-
-    .header-links:hover{
-        padding: 4px 8px;
-    }
 
     .container-title-text h1 {
         font-size: 30px;
@@ -91,15 +59,6 @@ header {
 
 /* Para telas com largura até e 480px */
 @media screen and (max-width: 480px){
-    .container-nav {
-        justify-content: center;
-        flex-wrap: wrap;
-        margin: 8px;
-    }
-
-    .header-links:hover{
-        padding: 4px 8px;
-    }
 
     .container-title-text h1 {
         font-size: 20px;

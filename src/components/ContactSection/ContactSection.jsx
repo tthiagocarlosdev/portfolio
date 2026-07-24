@@ -4,7 +4,7 @@ import LineWithArrow from '../LineWithArrow/LineWithArrow';
 
 function ContactSection () {
     const emailAddress = 'tthiagocarlos.dev@gmail.com';
-    const numberWhatsapp = '353831578001';
+    const numberWhatsapp = '+5581984331636';
     const addressYoutube = 'https://www.youtube.com/channel/UCZN-uQtc4UDQt_tLu-I7Wpw';
     const githubAddress = 'https://github.com/tthiagocarlosdev';
     const addressLinkedin = 'https://www.linkedin.com/in/thiago-carlos-80a480244/';

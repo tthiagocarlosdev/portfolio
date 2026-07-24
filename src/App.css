@@ -26,6 +26,9 @@ body {
   align-items: center;
 }
 
+#about-me-section, #section-tecnologias, #projects-section, #contact-section {
+    scroll-margin-top: 4.688rem;
+}
 
 /* media  media  media  media  media  media  media  media  media  media  media */
 /* media  media  media  media  media  media  media  media  media  media  media */
